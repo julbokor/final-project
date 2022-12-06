@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="BokorDiceLab.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1><b>Let's Roll the Dice!</b></h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2>
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <div>
+      <p>How many times would you like to play?</p>
+      <button class="myBtn" onclick="numberRolls()">Answer Here</button>
+    </div>
+
+    <div>
+      <p class="totals"></p>
+      <p class="details"></p>
+    </div>
+  
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Juliette Bokor - November 10, 2022
+  </footer>
+
+  <script src="BokorDiceLab.js" charset="utf-8"></script>
+  
+</body>
+</html>
